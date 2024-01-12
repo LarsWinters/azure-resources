@@ -3,6 +3,7 @@ kind: ResourceGroup
 metadata:
   name: test-rg
 spec:
-  location: Germany West Central
+  forProvider:
+    location: "Germany West Central"
   providerConfigRef:
     name: default
